@@ -1,0 +1,1658 @@
+[
+  {
+    "specimen_id": "calibration-000",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06579156905341234,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-001",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.12090376639537966,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-002",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08980239043987129,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-003",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05735801785001333,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-004",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06945392627003998,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-005",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07219270414426754,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-006",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.069974670033664,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-007",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.15077627757246903,
+    "decision": 1
+  },
+  {
+    "specimen_id": "calibration-008",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10463657263981604,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-009",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10260583939768657,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-010",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06791227900973205,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-011",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.053430941148061135,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-012",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08126182144412616,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-013",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.055289741814300394,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-014",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.13058358190783736,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-015",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09335267570146165,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-016",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06983385346663128,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-017",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05631284511248396,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-018",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09879302215518877,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-019",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.04710991429548553,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-020",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.045780642190705385,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-021",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09102076014184121,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-022",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0969865325646115,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-023",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06732185837257135,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-024",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06277289194036476,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-025",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10775083947537704,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-026",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10061614299768429,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-027",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10316007847025799,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-028",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0698574945284939,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-029",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07912388805066695,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-030",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09821946799543246,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-031",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1545957737544693,
+    "decision": 1
+  },
+  {
+    "specimen_id": "calibration-032",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06648805708794121,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-033",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07862690651073358,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-034",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.15476722673473603,
+    "decision": 1
+  },
+  {
+    "specimen_id": "calibration-035",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.04358633081976728,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-036",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.04398359299615467,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-037",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10506627235624928,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-038",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05799793419650747,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-039",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05311745503952405,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-040",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0954514366435073,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-041",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.062322197628769754,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-042",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09226275866220227,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-043",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06956125324718337,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-044",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10631148074713619,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-045",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.03622057993899753,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-046",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0945731989056241,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-047",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08371125661516286,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-048",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1080325959364345,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-049",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08169752429956217,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-050",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07508222645679054,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-051",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05758714097813926,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-052",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0748010157103261,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-053",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05360431582778346,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-054",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07028164152965045,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-055",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07997959220950336,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-056",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0799509643866094,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-057",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07564271097157385,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-058",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05352914732109645,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-059",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0702214560485829,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-060",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07871417768747477,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-061",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09609328276077432,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-062",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10316719873482871,
+    "decision": 0
+  },
+  {
+    "specimen_id": "calibration-063",
+    "split": "calibration",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1039773724689032,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-000",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07801184845187724,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-001",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06848931740479794,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-002",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10736040162513538,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-003",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.14082626389888483,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-004",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10528772839514353,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-005",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09278007906815736,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-006",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08123813155247855,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-007",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.062282578062726676,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-008",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05698142669013874,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-009",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0916743412086772,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-010",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05055945854142079,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-011",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0793345073407091,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-012",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.061566422665308686,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-013",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08487086221487418,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-014",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.04760983112711462,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-015",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1090665994834545,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-016",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.07939388115535488,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-017",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.13798024453549768,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-018",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08994836965174759,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-019",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08870733922003106,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-020",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.11633279003696775,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-021",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.04700651714679187,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-022",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05003892333554008,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-023",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10626241440162,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-024",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0822685450336446,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-025",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06729611275132337,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-026",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08661015901548212,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-027",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.0925636688152427,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-028",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10403344155584907,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-029",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06050811225369957,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-030",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.12553931036962687,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-031",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08148595182270225,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-032",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.05985886266975602,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-033",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08959383294434793,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-034",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09811846096310149,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-035",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.09245692819425465,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-036",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08184267006088658,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-037",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.06862079690642706,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-038",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.04175385194660633,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-039",
+    "split": "evaluation",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.08019918937629705,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-040",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.4460777249652922,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-041",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1421359872062808,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-042",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.21410851982106313,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-043",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.39115781601493843,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-044",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.21501664734868997,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-045",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2472173164228599,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-046",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.43369400432221294,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-047",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.3501903042707368,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-048",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2889639334625284,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-049",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.25433194382092505,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-050",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.3283772439651642,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-051",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.18586646860968123,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-052",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.24363338442973784,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-053",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.18385586956516148,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-054",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.38331362133888786,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-055",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1122438896694736,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-056",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.45737601192593036,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-057",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.15058817517555714,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-058",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.35054262602662306,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-059",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1832020197638113,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-060",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.19147025750903385,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-061",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.24502702772250268,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-062",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.26194461814518755,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-063",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.16727615119079287,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-064",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.10853183989463704,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-065",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.14794855795394007,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-066",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.18283367622309638,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-067",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.4233843765187908,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-068",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.40695437594431294,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-069",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.33526037552767335,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-070",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.21409780703420075,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-071",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2812780937450964,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-072",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1627688163352899,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-073",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.386522001505218,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-074",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.3974288634709593,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-075",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2580560750887087,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-076",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.23107215240990275,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-077",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2446814299624573,
+    "decision": 1
+  },
+  {
+    "specimen_id": "evaluation-078",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.1303002387721079,
+    "decision": 0
+  },
+  {
+    "specimen_id": "evaluation-079",
+    "split": "evaluation",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2605214463521847,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_coupling-000",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-001",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-002",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-003",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-004",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-005",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-006",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-007",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-008",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-009",
+    "split": "stress_coupling",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-010",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-011",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 2,
+    "total_repeats": 3,
+    "score": 0.35527238859350263,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_coupling-012",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-013",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-014",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-015",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-016",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-017",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-018",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_coupling-019",
+    "split": "stress_coupling",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_noise-000",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.17329831174860133,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-001",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_noise-002",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 1,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_noise-003",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.22783661947464598,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-004",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.27497969827800406,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-005",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.16295008969204003,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-006",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 1,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_noise-007",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.18912499597173998,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-008",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.19619554102378411,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-009",
+    "split": "stress_noise",
+    "label": 0,
+    "valid_repeats": 2,
+    "total_repeats": 3,
+    "score": 0.23036411193092213,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-010",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.39976488586736036,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-011",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.5827128198453234,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-012",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.2357371529641575,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-013",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_noise-014",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.4461437254216546,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-015",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 2,
+    "total_repeats": 3,
+    "score": 0.3007988209271522,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-016",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 3,
+    "total_repeats": 3,
+    "score": 0.25902482775060814,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-017",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  },
+  {
+    "specimen_id": "stress_noise-018",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 2,
+    "total_repeats": 3,
+    "score": 0.29292219628066485,
+    "decision": 1
+  },
+  {
+    "specimen_id": "stress_noise-019",
+    "split": "stress_noise",
+    "label": 1,
+    "valid_repeats": 0,
+    "total_repeats": 3,
+    "score": null,
+    "decision": null
+  }
+]

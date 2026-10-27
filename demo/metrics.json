@@ -1,0 +1,214 @@
+{
+  "package_version": "0.1.0",
+  "created_utc": "2026-10-27T08:57:16.888040+00:00",
+  "source_sha256": "87fe8754e1fd8ff36676a6a09a4881b375ca45f2c5090bd7557d2ad7d6caa2e1",
+  "dependency_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "schema_version": 1,
+  "source_kind": "synthetic",
+  "simulation": {
+    "source_kind": "synthetic",
+    "seed": 20261027,
+    "sample_rate_hz": 20000000,
+    "samples_per_trace": 1024,
+    "captures_per_specimen": 3,
+    "carrier_hz": [
+      950000,
+      1050000
+    ],
+    "pulse_sigma_s": 5.5e-07,
+    "assumed_velocity_m_s": [
+      2120,
+      2280
+    ],
+    "assumed_thickness_m": 0.02,
+    "time_zero_s": 2e-06,
+    "trigger_jitter_sd_s": 6e-08,
+    "coupling_multiplier": [
+      0.4,
+      1.1
+    ],
+    "white_noise_sd_v": [
+      0.015,
+      0.05
+    ],
+    "background_echo_amplitude_ratio": [
+      0.02,
+      0.08
+    ],
+    "extra_reflector_amplitude_ratio": [
+      0.08,
+      0.35
+    ],
+    "extra_reflector_delay_after_zero_s": [
+      6e-06,
+      1.2e-05
+    ],
+    "stress_noise_sd_v": 0.18,
+    "stress_coupling_multiplier": 0.04,
+    "limitations": "Gaussian carrier sums; no beam, pore, scattering, anisotropy, or physical crack model."
+  },
+  "threshold_fit": {
+    "value": 0.13058358190783736,
+    "quantile": 0.95,
+    "method": "higher",
+    "split": "calibration-normal only",
+    "specimen_ids": [
+      "calibration-000",
+      "calibration-001",
+      "calibration-002",
+      "calibration-003",
+      "calibration-004",
+      "calibration-005",
+      "calibration-006",
+      "calibration-007",
+      "calibration-008",
+      "calibration-009",
+      "calibration-010",
+      "calibration-011",
+      "calibration-012",
+      "calibration-013",
+      "calibration-014",
+      "calibration-015",
+      "calibration-016",
+      "calibration-017",
+      "calibration-018",
+      "calibration-019",
+      "calibration-020",
+      "calibration-021",
+      "calibration-022",
+      "calibration-023",
+      "calibration-024",
+      "calibration-025",
+      "calibration-026",
+      "calibration-027",
+      "calibration-028",
+      "calibration-029",
+      "calibration-030",
+      "calibration-031",
+      "calibration-032",
+      "calibration-033",
+      "calibration-034",
+      "calibration-035",
+      "calibration-036",
+      "calibration-037",
+      "calibration-038",
+      "calibration-039",
+      "calibration-040",
+      "calibration-041",
+      "calibration-042",
+      "calibration-043",
+      "calibration-044",
+      "calibration-045",
+      "calibration-046",
+      "calibration-047",
+      "calibration-048",
+      "calibration-049",
+      "calibration-050",
+      "calibration-051",
+      "calibration-052",
+      "calibration-053",
+      "calibration-054",
+      "calibration-055",
+      "calibration-056",
+      "calibration-057",
+      "calibration-058",
+      "calibration-059",
+      "calibration-060",
+      "calibration-061",
+      "calibration-062",
+      "calibration-063"
+    ],
+    "determinate_specimens": 64
+  },
+  "groups": {
+    "calibration": {
+      "total_specimens": 64,
+      "determinate_specimens": 64,
+      "indeterminate_by_label": {
+        "normal": 0,
+        "reflector": 0
+      },
+      "coverage": 1.0,
+      "confusion": {
+        "tn": 61,
+        "fp": 3,
+        "fn": 0,
+        "tp": 0
+      },
+      "sensitivity": null,
+      "sensitivity_denominator": 0,
+      "false_positive_rate": 0.046875,
+      "false_positive_rate_denominator": 64
+    },
+    "evaluation": {
+      "total_specimens": 80,
+      "determinate_specimens": 80,
+      "indeterminate_by_label": {
+        "normal": 0,
+        "reflector": 0
+      },
+      "coverage": 1.0,
+      "confusion": {
+        "tn": 38,
+        "fp": 2,
+        "fn": 3,
+        "tp": 37
+      },
+      "sensitivity": 0.925,
+      "sensitivity_denominator": 40,
+      "false_positive_rate": 0.05,
+      "false_positive_rate_denominator": 40
+    },
+    "stress_noise": {
+      "total_specimens": 20,
+      "determinate_specimens": 14,
+      "indeterminate_by_label": {
+        "normal": 3,
+        "reflector": 3
+      },
+      "coverage": 0.7,
+      "confusion": {
+        "tn": 0,
+        "fp": 7,
+        "fn": 0,
+        "tp": 7
+      },
+      "sensitivity": 1.0,
+      "sensitivity_denominator": 7,
+      "false_positive_rate": 1.0,
+      "false_positive_rate_denominator": 7
+    },
+    "stress_coupling": {
+      "total_specimens": 20,
+      "determinate_specimens": 1,
+      "indeterminate_by_label": {
+        "normal": 10,
+        "reflector": 9
+      },
+      "coverage": 0.05,
+      "confusion": {
+        "tn": 0,
+        "fp": 0,
+        "fn": 0,
+        "tp": 1
+      },
+      "sensitivity": 1.0,
+      "sensitivity_denominator": 1,
+      "false_positive_rate": null,
+      "false_positive_rate_denominator": 0
+    }
+  },
+  "trace_count": 552,
+  "specimen_count": 184,
+  "quality": {
+    "rejected_traces": 77,
+    "total_traces": 552
+  },
+  "interpretation": "Synthetic model results only; no measured crack-detection accuracy or calibrated probability.",
+  "settings_sha256": "9d7577a9ec6686306fddbb5424c2ce6920daacb3841a5305e9c687793c4a374f",
+  "data_sha256": "a6e70ad9612e64ab3f011af2e9cfb6c59b4bf4ba151e4af61a35378236b44fa7"
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "capture_id": "stress_coupling-010-r0",
+  "source_kind": "synthetic",
+  "notes": "Generated Gaussian-carrier example, not a measured scan.",
+  "velocity_m_s": 2157.513794636938,
+  "velocity_basis": "Illustrative simulated velocity, not calibrated printed material."
+}
