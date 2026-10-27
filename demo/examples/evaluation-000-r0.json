@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "capture_id": "evaluation-000-r0",
+  "source_kind": "synthetic",
+  "notes": "Generated Gaussian-carrier example, not a measured scan.",
+  "velocity_m_s": 2228.5230921546367,
+  "velocity_basis": "Illustrative simulated velocity, not calibrated printed material."
+}

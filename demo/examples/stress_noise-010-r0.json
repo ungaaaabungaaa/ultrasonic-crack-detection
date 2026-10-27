@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "capture_id": "stress_noise-010-r0",
+  "source_kind": "synthetic",
+  "notes": "Generated Gaussian-carrier example, not a measured scan.",
+  "velocity_m_s": 2264.50736483996,
+  "velocity_basis": "Illustrative simulated velocity, not calibrated printed material."
+}
