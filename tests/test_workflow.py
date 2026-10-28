@@ -1,12 +1,15 @@
+import io
 import json
 import tempfile
 import unittest
+from contextlib import redirect_stderr
 from hashlib import sha256
 from pathlib import Path
 
 import numpy as np
 
 from ultrasonic_lab.cli import main
+from ultrasonic_lab.core import DEFAULTS
 from ultrasonic_lab.workflow import run_benchmark
 
 
@@ -108,6 +111,33 @@ class WorkflowTests(unittest.TestCase):
                 metrics["input_sha256"]["metadata"], sha256(metadata.read_bytes()).hexdigest()
             )
             self.assertIn("MEASURED_UNVERIFIED", (out / "index.html").read_text())
+
+    def test_actual_adapter_rejects_ambiguous_settings_before_output(self):
+        example = Path(__file__).resolve().parents[1] / "demo/examples/evaluation-040-r0"
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            settings = root / "settings.json"
+            settings.write_text(json.dumps(DEFAULTS)[:-1] + ',"time_zero_s":0.000001}')
+            output = root / "output"
+            error = io.StringIO()
+            with redirect_stderr(error):
+                code = main(
+                    [
+                        "analyze",
+                        "--trace",
+                        str(example.with_suffix(".csv")),
+                        "--metadata",
+                        str(example.with_suffix(".json")),
+                        "--settings",
+                        str(settings),
+                        "--output",
+                        str(output),
+                    ]
+                )
+            self.assertEqual(code, 1)
+            self.assertIn("unique", error.getvalue())
+            self.assertNotIn("Traceback", error.getvalue())
+            self.assertFalse(output.exists())
 
     def test_cli_controlled_input_failure_does_not_create_output(self):
         with tempfile.TemporaryDirectory() as d:

@@ -12,6 +12,8 @@ CSV header is exactly `time_s,amplitude_v`. Values are finite decimal numbers in
 
 Metadata is a JSON object <=32,000 bytes with only these keys: `schema_version` (1), `capture_id` (1–80 safe letters/digits/underscore/hyphen), `source_kind` (`synthetic` or `measured_unverified`), `notes` (string <=2,000 characters), optional `velocity_m_s` (100–20,000) and `velocity_basis` (nonempty string <=500 characters when velocity is supplied). No default material sound velocity is assumed for measured input. The optional depth is only an apparent pulse-echo depth from declared velocity and time zero, not validated crack size or location. Input source labels and calibration notes are user declarations, not independently verified measurements.
 
+JSON metadata and settings reject duplicate object keys, non-finite constants, and decoder nesting failures. Ambiguous repeated declarations are never silently replaced. Invalid input returns a controlled error before any output directory is created.
+
 ## Settings
 
 JSON settings must specify the exact complete default schema: `band_hz: [600000,1400000]`, `indication_gate_s: [0.000005,0.000015]`, `backwall_gate_s: [0.000017,0.000024]`, `noise_gate_s: [0.000032,0.000045]`, `time_zero_s: 0.000002`, `min_backwall_snr: 8`, `adc_full_scale_v: 2`. Unknown, missing, malformed, non-finite, or unsupported values fail. Gates are ordered and nonoverlapping, with the indication gate after time zero. Upper passband edge must be below half the sampling frequency; at least four samples per highest passband cycle are required. Bounds and dead-zone/gate choices are a research convention, not an instrument calibration.

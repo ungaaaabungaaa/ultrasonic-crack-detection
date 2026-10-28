@@ -14,9 +14,9 @@ from .core import (
     DEFAULTS,
     analyze_trace,
     parse_metadata,
+    parse_settings,
     parse_trace,
     read_bounded,
-    validate_settings,
 )
 from .evaluation import aggregate_specimens, evaluate, fit_threshold
 from .synthetic import ASSUMPTIONS, generate_dataset
@@ -266,11 +266,7 @@ def analyze_file(trace_path, metadata_path, output, settings_path=None):
     metadata_bytes = read_bounded(metadata_path, 32_000)
     metadata = parse_metadata(metadata_bytes)
     time, volts = parse_trace(trace_bytes)
-    settings = (
-        validate_settings(json.loads(read_bounded(settings_path, 32_000)))
-        if settings_path
-        else DEFAULTS
-    )
+    settings = parse_settings(read_bounded(settings_path, 32_000)) if settings_path else DEFAULTS
     result, filtered, envelope = analyze_trace(time, volts, settings, metadata.get("velocity_m_s"))
     metrics = provenance() | {
         "schema_version": 1,

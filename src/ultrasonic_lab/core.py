@@ -70,8 +70,36 @@ def validate_settings(settings):
     return settings
 
 
+def parse_json(payload):
+    """Reject ambiguous declarations and convert decoder bounds into input errors."""
+
+    def unique_object(pairs):
+        result = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError("JSON object keys must be unique.")
+            result[key] = value
+        return result
+
+    def reject_constant(value):
+        raise ValueError("JSON numbers must be finite.")
+
+    try:
+        return json.loads(payload, object_pairs_hook=unique_object, parse_constant=reject_constant)
+    except (UnicodeError, RecursionError) as error:
+        raise ValueError(
+            "Input must be valid UTF-8 JSON within the decoder nesting bound."
+        ) from error
+
+
+def parse_settings(payload):
+    if len(payload) > 32_000:
+        raise ValueError("Settings exceeds its byte bound.")
+    return validate_settings(parse_json(payload))
+
+
 def load_settings(path):
-    return validate_settings(json.loads(read_bounded(path, 32_000)))
+    return parse_settings(read_bounded(path, 32_000))
 
 
 def load_metadata(path):
@@ -81,7 +109,7 @@ def load_metadata(path):
 def parse_metadata(payload):
     if len(payload) > 32_000:
         raise ValueError("Metadata exceeds its byte bound.")
-    meta = json.loads(payload)
+    meta = parse_json(payload)
     required = {"schema_version", "capture_id", "source_kind", "notes"}
     optional = {"velocity_m_s", "velocity_basis"}
     if not isinstance(meta, dict) or not required <= set(meta) or set(meta) - required - optional:
