@@ -3,6 +3,7 @@ import os
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from ultrasonic_lab.core import DEFAULTS, load_metadata, load_settings, load_trace, read_bounded
 from ultrasonic_lab.evaluation import aggregate_specimens, evaluate, fit_threshold
@@ -73,6 +74,32 @@ class BoundaryTests(unittest.TestCase):
             path.write_text("{}")
             with self.assertRaises(ValueError):
                 load_settings(path)
+
+    def test_acquisition_json_rejects_duplicate_keys_and_excessive_nesting(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "input.json"
+            cases = [
+                (
+                    load_metadata,
+                    '{"schema_version":1,"capture_id":"first","capture_id":"second","source_kind":"measured_unverified","notes":""}',
+                ),
+                (load_settings, json.dumps(DEFAULTS)[:-1] + ',"time_zero_s":0.000001}'),
+                (load_metadata, "[" * 2000 + "0" + "]" * 2000),
+                (load_settings, "[" * 2000 + "0" + "]" * 2000),
+            ]
+            for loader, payload in cases:
+                with self.subTest(loader=loader.__name__, payload=payload[:50]):
+                    path.write_text(payload)
+                    with self.assertRaises(ValueError):
+                        loader(path)
+
+    def test_older_decoder_nesting_error_is_a_value_error(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "metadata.json"
+            path.write_text("{}")
+            with patch("ultrasonic_lab.core.json.loads", side_effect=RecursionError("nested")):
+                with self.assertRaisesRegex(ValueError, "nesting"):
+                    load_metadata(path)
 
     def test_threshold_equality_and_missing_calibration_data_are_explicit(self):
         row = {"specimen_id": "x", "label": 1, "score": 0.5}
