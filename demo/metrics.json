@@ -1,7 +1,7 @@
 {
   "package_version": "0.1.0",
-  "created_utc": "2026-10-28T02:46:41.240550+00:00",
-  "source_sha256": "40abec2a1f7f28df251d0b01a0fa50474f499952ef90d72129b8606565e13586",
+  "created_utc": "2026-10-28T11:28:47.344171+00:00",
+  "source_sha256": "06430b3da36f43e0a2b2a7b221d2b407c3a1b8efc3503ec76a69c332361066ec",
   "dependency_versions": {
     "numpy": "2.3.5",
     "scipy": "1.18.1",

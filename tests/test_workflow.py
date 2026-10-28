@@ -139,6 +139,33 @@ class WorkflowTests(unittest.TestCase):
             self.assertNotIn("Traceback", error.getvalue())
             self.assertFalse(output.exists())
 
+    def test_actual_adapter_rejects_python_style_numeric_literals(self):
+        example = Path(__file__).resolve().parents[1] / "demo/examples/evaluation-040-r0"
+        with tempfile.TemporaryDirectory() as d:
+            root = Path(d)
+            trace = root / "trace.csv"
+            rows = example.with_suffix(".csv").read_text().splitlines()
+            rows[1] = rows[1].split(",")[0] + ",1_0"
+            trace.write_text("\n".join(rows) + "\n")
+            output = root / "output"
+            error = io.StringIO()
+            with redirect_stderr(error):
+                code = main(
+                    [
+                        "analyze",
+                        "--trace",
+                        str(trace),
+                        "--metadata",
+                        str(example.with_suffix(".json")),
+                        "--output",
+                        str(output),
+                    ]
+                )
+            self.assertEqual(code, 1)
+            self.assertIn("decimal", error.getvalue())
+            self.assertNotIn("Traceback", error.getvalue())
+            self.assertFalse(output.exists())
+
     def test_cli_controlled_input_failure_does_not_create_output(self):
         with tempfile.TemporaryDirectory() as d:
             output = Path(d) / "missing"
