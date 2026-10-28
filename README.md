@@ -81,3 +81,5 @@ Contributions must preserve specimen-level separation and report rejected captur
 This implementation was built in October 2026. The previous unrelated cartoonifier/notebook content remains in [archive/before-ultrasonic-crack-detection-2026-10-27](https://github.com/ungaaaabungaaa/ultrasonic-crack-detection/tree/archive/before-ultrasonic-crack-detection-2026-10-27). No legacy code was reused and the old tree had no license file. Existing repository dates and stars do not establish the date of this new work.
 
 New code, generated synthetic examples, and result figures are [MIT licensed](LICENSE). The README cover is an approved generated concept, with [provenance](docs/images/cover-provenance.json); it is not hardware or inspection evidence. The portfolio site is unchanged.
+
+Acquisition CSV fields use ASCII decimal or scientific notation (for example `-0.5`, `.5`, or `1.0e-6`). Python-style underscores, Unicode digits, surrounding whitespace, hexadecimal forms, and non-finite spellings fail with a controlled error before any report output. Existing sampling, sample-count, time, and voltage bounds still apply.

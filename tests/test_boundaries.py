@@ -5,7 +5,14 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from ultrasonic_lab.core import DEFAULTS, load_metadata, load_settings, load_trace, read_bounded
+from ultrasonic_lab.core import (
+    DEFAULTS,
+    load_metadata,
+    load_settings,
+    load_trace,
+    parse_trace,
+    read_bounded,
+)
 from ultrasonic_lab.evaluation import aggregate_specimens, evaluate, fit_threshold
 
 
@@ -100,6 +107,32 @@ class BoundaryTests(unittest.TestCase):
             with patch("ultrasonic_lab.core.json.loads", side_effect=RecursionError("nested")):
                 with self.assertRaisesRegex(ValueError, "nesting"):
                     load_metadata(path)
+
+    def test_acquisition_csv_requires_ascii_decimal_fields(self):
+        import io
+
+        import numpy as np
+
+        time = np.arange(256) / 20e6
+        stream = io.StringIO()
+        np.savetxt(
+            stream,
+            np.column_stack([time, np.zeros(256)]),
+            delimiter=",",
+            header="time_s,amplitude_v",
+            comments="",
+        )
+        rows = stream.getvalue().splitlines()
+        for token in ["1_0", "１２", " 0.1", "0.1 ", "nan", "Infinity", "0x1p2"]:
+            with self.subTest(token=token):
+                rows[1] = "0," + token
+                with self.assertRaises(ValueError):
+                    parse_trace(("\n".join(rows) + "\n").encode("utf-8"))
+        rows[1] = "+0.0e+0,-.5"
+        times, volts = parse_trace(("\n".join(rows) + "\n").encode())
+        self.assertEqual(times[0], 0)
+        self.assertEqual(volts[0], -0.5)
+        self.assertEqual(len(times), 256)
 
     def test_threshold_equality_and_missing_calibration_data_are_explicit(self):
         row = {"specimen_id": "x", "label": 1, "score": 0.5}

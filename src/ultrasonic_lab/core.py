@@ -11,6 +11,8 @@ from pathlib import Path
 import numpy as np
 from scipy.signal import butter, hilbert, sosfiltfilt
 
+DECIMAL_FIELD = re.compile(r"[+-]?(?:[0-9]+(?:\.[0-9]*)?|\.[0-9]+)(?:[eE][+-]?[0-9]+)?")
+
 DEFAULTS = {
     "band_hz": [600_000, 1_400_000],
     "indication_gate_s": [5e-6, 15e-6],
@@ -171,6 +173,10 @@ def parse_trace(payload):
     for row in rows:
         if len(row) != 2 or len(values) >= 100_000:
             raise ValueError("CSV sample fields or count exceed the contract.")
+        if any(DECIMAL_FIELD.fullmatch(value) is None for value in row):
+            raise ValueError(
+                "CSV samples must use ASCII decimal or scientific notation without whitespace."
+            )
         values.append([float(x) for x in row])
     if not values:
         raise ValueError("CSV contains no samples.")
